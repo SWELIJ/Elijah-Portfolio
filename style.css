@@ -4,13 +4,27 @@
 
 a.baltimore-link {
   padding: 10px;
-  margin: 10px;
-  width: 20px;
+  margin-top: 50%;
+  margin-left:auto;
+  margin-right: auto;
   border-style: solid;
   border-radius: 10px;
   background-color: #ffffff;
   text-decoration: none;
   text-align: center;
+  
+}
+
+.intro-container{
+  display:block;
+height: 300px;
+width:35%;
+padding: 30px;
+float: left;
+}
+
+.intro-p{
+  margin-bottom: 30px;
 }
 
 .e-pfp {
