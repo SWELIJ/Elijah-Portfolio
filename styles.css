@@ -2,8 +2,8 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #e0f7fa; /* Light blue background */
-    color: #00796b; /* Darker blue text */
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light gray text */
     line-height: 1.6;
 }
 
@@ -23,7 +23,7 @@ body {
     column-gap: 20px; /* Space between columns */
 }
 
-
+/* Header */
 header {
     width: 100%;
     text-align: center;
@@ -37,21 +37,21 @@ header {
     border-radius: 50%;
     width: 120px; /* Adjust size as needed */
     height: 120px; /* Maintain aspect ratio */
-    border: 5px solid #0288d1; /* Lighter blue border */
+    border: 5px solid #ff5722; /* Orange border */
     margin-bottom: 10px;
 }
 
 header h1 {
     font-size: 3em;
     margin: 0;
-    color: #0288d1; /* Lighter blue */
+    color: #ff5722; /* Orange */
     font-weight: 700;
     text-transform: uppercase;
 }
 
 header h2 {
     font-size: 1.5em;
-    color: #00796b; /* Darker teal */
+    color: #b0bec5; /* Light gray-blue */
     margin-top: 10px;
     font-weight: 400;
 }
@@ -63,9 +63,9 @@ header h2 {
     flex: 1 1 60%;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #b3e5fc; /* Light blue */
+    background-color: #1e1e1e; /* Dark gray background */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -74,18 +74,18 @@ header h2 {
 .skills:hover,
 .contact:hover { /* Added hover effect for contact section */
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
 }
 
 .about h3,
 .projects h3,
 .skills h3,
 .contact h3 { /* Updated to include contact h3 */
-    border-bottom: 2px solid #0288d1; /* Lighter blue */
+    border-bottom: 2px solid #ff5722; /* Orange */
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-size: 1.8em;
-    color: #00796b; /* Darker teal */
+    color: #ff5722; /* Orange */
 }
 
 /* Projects Section */
@@ -97,16 +97,16 @@ header h2 {
 
 .project-item {
     flex: 1 1 calc(33.333% - 20px); /* Three items per row with gap */
-    background-color: #e1f5fe; /* Slightly lighter blue */
+    background-color: #424242; /* Dark gray */
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
 }
 
 .project-thumbnail {
@@ -122,13 +122,13 @@ header h2 {
 .project-info h4 {
     margin: 0 0 10px;
     font-size: 1.4em;
-    color: #0288d1; /* Lighter blue */
+    color: #ff5722; /* Orange */
 }
 
 .project-info p {
     margin: 0;
     font-size: 1em;
-    color: #00796b; /* Darker teal */
+    color: #e0e0e0; /* Light gray text */
 }
 
 /* Skills Lists */
@@ -146,7 +146,7 @@ header h2 {
 
 .projects ul li a,
 .skills ul li a {
-    color: #0288d1; /* Lighter blue */
+    color: #ff5722; /* Orange */
     text-decoration: none;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s ease;
@@ -154,7 +154,7 @@ header h2 {
 
 .projects ul li a:hover,
 .skills ul li a:hover {
-    border-bottom: 2px solid #0288d1; /* Lighter blue */
+    border-bottom: 2px solid #ff5722; /* Orange */
 }
 
 /* Profile Picture */
@@ -164,15 +164,15 @@ header h2 {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: #b3e5fc; /* Light blue */
+    background-color: #1e1e1e; /* Dark gray */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
 }
 
 .profile img {
@@ -180,38 +180,39 @@ header h2 {
     max-width: 200px;
     width: 100%;
     height: auto;
-    border: 5px solid #0288d1; /* Lighter blue */
+    border: 5px solid #ff5722; /* Orange */
 }
 
 /* Contact Section */
 .contact {
     flex: 1 1 100%;
     padding: 20px;
-    background-color: #b3e5fc; /* Light blue */
+    background-color: #1e1e1e; /* Dark gray */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     margin-top: 30px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition */
 }
 
 .contact h3 {
-    border-bottom: 2px solid #0288d1; /* Lighter blue */
+    border-bottom: 2px solid #ff5722; /* Orange */
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-size: 1.8em;
-    color: #00796b; /* Darker teal */
+    color: #ff5722; /* Orange */
 }
 
 .contact p {
     font-size: 1.1em;
     margin: 0;
+    color: #e0e0e0; /* Light gray text */
 }
 
 .contact a {
     display: flex;
     align-items: center;
-    color: #0288d1; /* Lighter blue */
+    color: #ff5722; /* Orange */
     text-decoration: none;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s ease;
@@ -219,7 +220,7 @@ header h2 {
 }
 
 .contact a:hover {
-    border-bottom: 2px solid #0288d1; /* Lighter blue */
+    border-bottom: 2px solid #ff5722; /* Orange */
 }
 
 .contact-icon {
